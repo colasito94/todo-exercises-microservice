@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 // Response for API Gateway Page
-app.post("/", (req, res) => {
+app.post("/filter", (req, res) => {
     // console.log(req.body)
     res.json(req.body.exercises.filter(exercise => exercise.urgency == "Very"));
 });

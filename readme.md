@@ -5,7 +5,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-request-data">How To Request Data</a> •
   <a href="#how-to-receive-data">How To Receive Data</a> •
-    <a href="#example:">Example:</a> •
+    <a href="#example">Example</a> •
   <a href="#how-to-run">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
@@ -27,7 +27,7 @@
 ## How To Receive Data
 1.  /filter - Data is sent as JSON .
 
-## Example:
+## Example
 API request - POST - `http://todo-exercises.herokuapp.com/filter
 
 Returns: 

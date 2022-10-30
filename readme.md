@@ -36,7 +36,7 @@ Returns:
 [{"_id":"635d8774d5895b5b546864f5","name":"Math","description":"Do math","score":65,"urgency":"Very","date":"2022-10-29T00:00:00.000Z","__v":0}]
 
 ```
-## How To Run
+## How To Build and Run
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 

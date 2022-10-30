@@ -5,6 +5,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-request-data">How To Request Data</a> •
   <a href="#how-to-receive-data">How To Receive Data</a> •
+    <a href="#example">Example</a> •
   <a href="#how-to-run">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
@@ -12,15 +13,21 @@
   <a href="#license">License</a>
 </p>
 
-
+-- This is a basic API that receives JSON data of exercises and returns only exercises which not to be prioritized and completed urgently. Data is requested through a POST verb and all responses are returned as JSON.
 
 ## Key Features
 
--- This is a basic API that receives JSON data of exercises and returns only exercises which not to be prioritized and completed urgently. Data is requested through a POST verb and all responses are returned as JSON.
+-- The Following API endpoints are exposed:
+- `POST /filter` - Filters the exercise(s) with the "urgency" as "Very" and returns only those exercises(s).
+
 
 ## How To Request Data
+1. /filter - Send exercises data as JSON.
 
 ## How To Receive Data
+1.  /filter - Data is sent as JSON 
+
+## Example
 
 ## How To Run
 

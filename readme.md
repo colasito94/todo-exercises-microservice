@@ -5,7 +5,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-request-data">How To Request Data</a> •
   <a href="#how-to-receive-data">How To Receive Data</a> •
-    <a href="#example">Example</a> •
+    <a href="#example:">Example</a> •
   <a href="#how-to-run">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
@@ -25,10 +25,17 @@
 1. /filter - Send exercises data as JSON.
 
 ## How To Receive Data
-1.  /filter - Data is sent as JSON 
+1.  /filter - Data is sent as JSON .
 
-## Example
+## Example:
+API request - POST - `http://todo-exercises.herokuapp.com/filter
 
+Returns: 
+```
+
+[{"_id":"635d8774d5895b5b546864f5","name":"Math","description":"Do math","score":65,"urgency":"Very","date":"2022-10-29T00:00:00.000Z","__v":0}]
+
+```
 ## How To Run
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:

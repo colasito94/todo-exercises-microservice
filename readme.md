@@ -40,6 +40,8 @@ Returns:
 
 ## Sequence Diagram
 
+<img width="980" alt="UML Diagram" src="https://user-images.githubusercontent.com/81384896/199005507-488bf78d-92c2-46bf-956e-70591b94a1ab.png">
+
 
 ## How To Build and Run
 
